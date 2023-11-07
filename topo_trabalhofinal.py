@@ -31,18 +31,15 @@ class MyTopo( Topo ):
 
         self.addLink(s2, h3)
         self.addLink(s2, h4)
-        self.addLink(s2, s1)
         self.addLink(s2, s3)
 
         self.addLink(s3, h5)
         self.addLink(s3, h6)
-        self.addLink(s3, s2)
         self.addLink(s3, s4)
 
         self.addLink(s4, h7)
         self.addLink(s4, h8)
         self.addLink(s4, h9)
-        self.addLink(s4, s3)
 
 
 
